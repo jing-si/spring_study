@@ -3,7 +3,11 @@ package main;
 public class HalloWorldDecoupled {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		MessageProvider mp = new HelloWorldMessageProviderImpl();
+		MessageRenderer mr = new MessageRendererImpl();
+		mp.setMessage("이렇게");
+		mr.setMessageProvider(mp);
+		mr.render();
 	}
 
 }
