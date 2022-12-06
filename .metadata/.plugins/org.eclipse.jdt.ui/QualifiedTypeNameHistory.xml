@@ -2,7 +2,12 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="main.MessageProvider"/>
+    <fullyQualifiedTypeName name="main.MessageRendererImpl"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="javax.tools.Tool"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
     <fullyQualifiedTypeName name="main.HelloWorldMessageProviderImpl"/>
     <fullyQualifiedTypeName name="main.MessageRenderer"/>
-    <fullyQualifiedTypeName name="main.MessageRendererImpl"/>
+    <fullyQualifiedTypeName name="main.MessageSupportFactory"/>
 </qualifiedTypeNameHistroy>
